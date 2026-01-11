@@ -1,0 +1,34 @@
+name: Greetings
+
+on: [pull_request_target, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: |
+            👋 Thanks for opening your first issue! We appreciate your contribution to Awesome LLMOps.
+            
+            Please make sure you've:
+            - Searched for existing issues to avoid duplicates
+            - Provided clear and detailed information
+            - Read our [Contributing Guidelines](../CONTRIBUTING.md)
+            
+            A maintainer will review your issue soon. In the meantime, feel free to explore the repository and star it if you find it useful! ⭐
+          pr-message: |
+            🎉 Thanks for opening your first pull request! We're excited to review your contribution to Awesome LLMOps.
+            
+            Please ensure:
+            - Your PR follows our [Contributing Guidelines](../CONTRIBUTING.md)
+            - All links are working and point to official sources
+            - Descriptions are concise (1-2 sentences)
+            - Entries are in alphabetical order
+            - You've checked the PR template checklist
+            
+            A maintainer will review your PR as soon as possible. Thank you for contributing! 🚀

@@ -17,6 +17,7 @@
 
 ## 📋 Table of Contents
 
+- [What's New](#whats-new)
 - [What is LLMOps?](#what-is-llmops)
 - [LLMOps vs MLOps](#llmops-vs-mlops)
 - [Models](#models)
@@ -45,6 +46,34 @@
 - [LLMOps Platforms](#llmops-platforms)
 - [Resources & Learning](#resources--learning)
 - [Contributing](#contributing)
+
+---
+
+## What's New
+
+### 🆕 Recently Added (January 2026)
+
+**Infrastructure & Deployment:**
+- [Skypilot](https://github.com/skypilot-org/skypilot) - Run LLMs on any cloud with one command
+- [Modal](https://modal.com/) - Serverless platform for AI/ML workloads
+
+**Evaluation & Testing:**
+- [Ragas](https://github.com/explodinggradients/ragas) - Evaluation framework for RAG pipelines
+- [PromptFoo](https://github.com/promptfoo/promptfoo) - Test and evaluate LLM outputs
+
+**Agent Frameworks:**
+- [Phidata](https://github.com/phidatahq/phidata) - Build AI assistants with memory and knowledge
+- [Composio](https://github.com/ComposioHQ/composio) - Integration platform for AI agents
+
+**Monitoring & Observability:**
+- [Traceloop](https://github.com/traceloop/openllmetry) - OpenTelemetry for LLMs
+- [LangWatch](https://github.com/langwatch/langwatch) - LLM monitoring and analytics
+
+### 📈 Trending This Month
+- **vLLM** continues to dominate high-throughput inference
+- **LangGraph** gaining traction for stateful agent workflows
+- **Ollama** becoming the go-to for local LLM deployment
+- **DeepSeek** models showing impressive cost-performance ratios
 
 ---
 
