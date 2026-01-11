@@ -1,0 +1,88 @@
+name: ✨ Feature Request
+description: Suggest a new tool, resource, or enhancement
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an enhancement! Please provide as much detail as possible.
+
+  - type: dropdown
+    id: request-type
+    attributes:
+      label: Request Type
+      description: What type of enhancement is this?
+      options:
+        - Add new tool/resource
+        - Add new category
+        - Improve existing content
+        - Documentation improvement
+        - Other enhancement
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Clear description of what you'd like to see
+      placeholder: What would you like to add or improve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: tool-details
+    attributes:
+      label: Tool/Resource Details (if applicable)
+      description: If suggesting a new tool, provide details
+      placeholder: |
+        Name: [Tool name]
+        Link: [GitHub or website URL]
+        Description: [Brief description]
+        Category: [Where it should be listed]
+        Why it's useful: [Why it should be included]
+    validations:
+      required: false
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why would this be valuable to the community?
+      placeholder: How does this benefit LLMOps practitioners?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Have you considered any alternatives?
+      placeholder: Are there similar tools already listed?
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Any other context, screenshots, or examples
+      placeholder: Links, examples, use cases, etc.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Please confirm the following
+      options:
+        - label: I have searched existing issues and PRs to ensure this is not a duplicate
+          required: true
+        - label: I have read the [Contributing Guidelines](../../CONTRIBUTING.md)
+          required: true
+        - label: This tool/resource is actively maintained (if applicable)
+          required: false
+        - label: This tool/resource is open-source or well-documented (if applicable)
+          required: false
