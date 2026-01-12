@@ -40,5 +40,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added 20 relevant topics for discoverability
 - Configured GitHub repository settings
 
-[Unreleased]: https://github.com/pmady/llmops/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/pmady/llmops/releases/tag/v1.0.0
+[Unreleased]: https://github.com/pmady/llmops/commits/main
+[1.0.0]: https://github.com/pmady/llmops/commit/e30e730
