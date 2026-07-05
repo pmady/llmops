@@ -32,6 +32,10 @@
   - [Application Frameworks](#application-frameworks)
   - [Agent Frameworks](#agent-frameworks)
   - [Workflow Management](#workflow-management)
+- [AI Agent Frameworks](#ai-agent-frameworks)
+  - [Frameworks](#frameworks)
+  - [Multi-Agent Orchestration Tools](#multi-agent-orchestration-tools)
+  - [Agent Monitoring & Debugging](#agent-monitoring--debugging)
 - [Training & Fine-Tuning](#training--fine-tuning)
   - [Training Frameworks](#training-frameworks)
   - [Fine-Tuning Tools](#fine-tuning-tools)
@@ -216,6 +220,36 @@
 | [Airflow](https://github.com/apache/airflow) | Platform to programmatically author workflows | ![Stars](https://img.shields.io/github/stars/apache/airflow?style=flat-square) |
 | [Flyte](https://github.com/flyteorg/flyte) | Kubernetes-native workflow automation | ![Stars](https://img.shields.io/github/stars/flyteorg/flyte?style=flat-square) |
 | [Flowise](https://github.com/FlowiseAI/Flowise) | Drag & drop UI for LLM flows | ![Stars](https://img.shields.io/github/stars/FlowiseAI/Flowise?style=flat-square) |
+
+---
+
+## AI Agent Frameworks
+
+### Frameworks
+
+| Framework | Description | Stars |
+|-----------|-------------|-------|
+| [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT) | Experimental autonomous AI agent platform for complex task loops | ![Stars](https://img.shields.io/github/stars/Significant-Gravitas/AutoGPT?style=flat-square) |
+| [BabyAGI](https://github.com/yoheinakajima/babyagi) | Lightweight task-driven autonomous agent framework | ![Stars](https://img.shields.io/github/stars/yoheinakajima/babyagi?style=flat-square) |
+| [CrewAI](https://github.com/crewAIInc/crewAI) | Role-based multi-agent orchestration framework | ![Stars](https://img.shields.io/github/stars/crewAIInc/crewAI?style=flat-square) |
+| [LangChain Agents](https://python.langchain.com/docs/concepts/agents/) | Agent abstractions for tool use, planning, and execution | N/A |
+
+### Multi-Agent Orchestration Tools
+
+| Tool | Description | Stars |
+|------|-------------|-------|
+| [AutoGen](https://github.com/microsoft/autogen) | Multi-agent collaboration framework for conversational workflows | ![Stars](https://img.shields.io/github/stars/microsoft/autogen?style=flat-square) |
+| [CrewAI Flows](https://docs.crewai.com/concepts/flows) | Event-driven orchestration patterns for crew-based agent systems | N/A |
+| [LangGraph](https://github.com/langchain-ai/langgraph) | Stateful graph orchestration for deterministic and agentic workflows | ![Stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=flat-square) |
+
+### Agent Monitoring & Debugging
+
+| Tool | Description | Stars |
+|------|-------------|-------|
+| [AgentOps](https://github.com/AgentOps-AI/agentops) | Session replay, tracing, and reliability monitoring for AI agents | ![Stars](https://img.shields.io/github/stars/AgentOps-AI/agentops?style=flat-square) |
+| [Helicone](https://github.com/Helicone/helicone) | Request logging, analytics, and cost tracking for LLM/agent traffic | ![Stars](https://img.shields.io/github/stars/Helicone/helicone?style=flat-square) |
+| [Langfuse](https://github.com/langfuse/langfuse) | Open-source tracing and evaluation platform for LLM/agent applications | ![Stars](https://img.shields.io/github/stars/langfuse/langfuse?style=flat-square) |
+| [LangSmith](https://www.langchain.com/langsmith) | Agent tracing, test runs, and debugging for LangChain ecosystems | N/A |
 
 ---
 
