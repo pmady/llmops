@@ -293,6 +293,7 @@
 
 | Tool | Description | Stars |
 |------|-------------|-------|
+| [ax](https://github.com/Necmttn/ax) | Local telemetry, recall, cost, and skill analytics for AI coding agents | ![Stars](https://img.shields.io/github/stars/Necmttn/ax?style=flat-square) |
 | [Langfuse](https://github.com/langfuse/langfuse) | Open-source LLM observability | ![Stars](https://img.shields.io/github/stars/langfuse/langfuse?style=flat-square) |
 | [Phoenix](https://github.com/Arize-ai/phoenix) | AI observability & evaluation | ![Stars](https://img.shields.io/github/stars/Arize-ai/phoenix?style=flat-square) |
 | [Helicone](https://github.com/Helicone/helicone) | Open-source LLM observability | ![Stars](https://img.shields.io/github/stars/Helicone/helicone?style=flat-square) |
