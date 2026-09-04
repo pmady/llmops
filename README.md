@@ -168,6 +168,7 @@
 
 | Platform | Description | Stars |
 |----------|-------------|-------|
+| [Bifrost](https://github.com/maximhq/bifrost) | Go-native OpenAI-compatible AI gateway for multi-provider routing, failover, guardrails, usage controls, MCP, and observability | ![Stars](https://img.shields.io/github/stars/maximhq/bifrost?style=flat-square) |
 | [Ollama](https://github.com/ollama/ollama) | Run LLMs locally with ease | ![Stars](https://img.shields.io/github/stars/ollama/ollama?style=flat-square) |
 | [LocalAI](https://github.com/mudler/LocalAI) | OpenAI-compatible API for local models | ![Stars](https://img.shields.io/github/stars/mudler/LocalAI?style=flat-square) |
 | [LM Studio](https://lmstudio.ai/) | Desktop app for running LLMs locally | N/A |
